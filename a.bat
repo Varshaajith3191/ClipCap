@@ -1,0 +1,1 @@
+python "C:\Users\ACER\Desktop\video\app.py"

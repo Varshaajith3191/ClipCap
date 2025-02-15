@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.login-container {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.login-form,
+.welcome-back {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background-color: #ffffff;
+}
+
+.login-form h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.login-form p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.sign-in {
+    width: 100%;
+    padding: 10px;
+    background-color:  #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sign-in:hover {
+    background-color: #e67e22;
+}
+
+.social-login {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+
+.welcome-back {
+    background: linear-gradient(135deg,  #ff9800, #e67e22);
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+
+}
+
+.welcome-back h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.welcome-back p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.sign-up {
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sign-up:hover {
+    background-color: white;
+    color:  #ff9800;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container input[type="password"] {
+    width: 100%;
+    padding-right: 30px;
+    /* Add padding for the eye icon */
+}
+
+.eye-icon {
+    position: absolute;
+    top: 35%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+}
+.google-sign-in {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .google-sign-in:hover {
+    background-color: #e68900;
+  }
+  
